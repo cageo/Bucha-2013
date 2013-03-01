@@ -4,7 +4,7 @@ Title of the manuscript: A MATLAB-based graphical user interface program
 			 for computing functionals of the geopotential 
 			 up to ultra-high degrees and orders
 			
-Submitted to:		 Computers and Geosciences
+Submitted to:		 Computers & Geosciences
 
 Authors details:         Blazej Bucha (blazej.bucha@stuba.sk; corresponding author: 
 			 Tel.: +421 2 59274342; fax: +421 2 52925476)
