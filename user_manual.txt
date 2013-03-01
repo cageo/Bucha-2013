@@ -1,0 +1,46 @@
+==================================================================================
+Setting of the GrafLab for the test computation of functional of the geopotential:
+==================================================================================
+
+Panel GEOPOTENTIAL MODEL AND REFERENCE SYSTEM SELECTION
+
+- Import the enclosed GGM file "EGM96.mat" using the "Browse..." button.
+
+Panel POINT TYPE SELECTION
+
+- Select the checkbox "Load data" and click the "Browse..." button (next to the checkbox) 
+  to import the enclosed input test file "input.txt".
+
+Panel CALCULATED PARAMETERS AND OUTPUT SELECTION
+
+- In the first pop-up menu choose "Disturbing_potential". 
+- Enter name of the output file using the button "Output folder and file"
+  (enter only name of the file without the suffix ".txt").
+- Click the "OK" button to start the computational process.
+
+Compare the computed results with the results in the enclosed sample output file "output_EGM96.txt".
+
+
+======================================================================================================
+Setting of the GrafLab for the test computation of commission error of functional of the geopotential:
+======================================================================================================
+
+Panel GEOPOTENTIAL MODEL AND REFERENCE SYSTEM SELECTION
+
+- Import the enclosed file of error variance-cavariance matrix "GRIM5C1_covmat.mat" using the 
+  "Browse..." button.
+
+Panel POINT TYPE SELECTION
+
+- Select the checkbox "Load data" and click the "Browse..." button (next to the checkbox) 
+  to import the enclosed input test file "input.txt".
+
+Panel CALCULATED PARAMETERS AND OUTPUT SELECTION
+
+- Select the checkbox "Commission error".
+- In the first pop-up menu choose "Disturbing_potential". 
+- Enter name of the output file using the button "Output folder and file"
+  (enter only name of the file without the suffix ".txt").
+- Click the "OK" button to start the computational process.
+
+Compare the computed results with the results in the enclosed sample output file "output_GRIM5C1.txt".
